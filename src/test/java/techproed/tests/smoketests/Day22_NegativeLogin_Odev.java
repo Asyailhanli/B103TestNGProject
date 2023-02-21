@@ -65,22 +65,5 @@ public class Day22_NegativeLogin_Odev {
         Assert.assertEquals(blueRentalLoginPage.gecersizMail.getText(),"email must be a valid email");
 
     }
-     /*
-    •Name:
-	•US101201_Negative_Login
-	•Description:
-	•Gecerli giris yapmadan rezervasyon yapamamali
-	•Acceptance Criteria
-	   Kullanici arac bilgilerini girip CONTINUE RESERVATION butonuna tikladiginda
-	   Ve giris yapilamdiginda
-	   Hata mesaji almali:Please first login
-       Giris yapildiginda hata mesaji alinmamali
-
-     */
-
-    @Test
-    public void US101201_Negative_Login(){
-
-    }
 
 }
